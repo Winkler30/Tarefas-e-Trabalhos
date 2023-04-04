@@ -1,8 +1,8 @@
 numeros = [] 
 
 print("\nDigite 5 numeros inteiros aleatórios para termos a soma no final\n")
-for i in range(5):
-    num = int(input(f"Digite o {i+1}"+ " número: " ))
+for i in range(1,6):
+    num = int(input(f"Digite o {i}"+ " número: " ))
     numeros.append(num)
 
 soma = 0 
